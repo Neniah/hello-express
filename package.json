@@ -1,7 +1,7 @@
 {
   "name": "hello-express",
   "version": "1.0.0",
-  "description": "",
+  "description": "hello express tutorial",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
@@ -10,6 +10,7 @@
   "author": "Maria Lobillo",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.2"
+    "express": "^4.16.2",
+    "morgan": "^1.9.0"
   }
 }

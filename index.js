@@ -30,5 +30,5 @@ app.get('*', (req, res) => {
 
 app.listen(3000, function(){
   console.log('Servidor funcionanado...');
-  console.log('Nombre de la App: ' + app.get('name'));
+  console.log('Nombre de la App: ' + app.get('appName'));
 });
